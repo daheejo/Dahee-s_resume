@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>조다희의 이력서</title>
+  <link rel="stylesheet" href="codelion.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+    theme: {
+        extend: {
+            fontFamily: {
+            'nanum': ['Nanum Gothic', ]
+        }
+     }
+   };
+ };
+  </script>
+</head>
+<body>
+  <div class="mainbox flex font-nanum ">
+    <section class="left-sect w-1/4 pb-500 bg-pink-100 text-center">
+      <img class="block w-48 h-70 p-5 mx-auto rounded-full" src="profile.jpg">
+      <div class="title-box">
+        <h1 class="font-bold">조다희</h1>
+        <h1 class="font-bold">Dahee Jo</h1>
+        <p class="text-xl mt-10 mb-3 font-semibold">Github</p>
+        <a href="https://github.com/daheejo"><img class="sns-img inline-block w-10" src="./images/github.png"></a>
+        <p class="text-xl mt-10 mb-3 bold font-bold">CONTACT</p>
+        <p class="mb-3 font-semibold">Email</p>
+        <p class="text-sm">happyj6528@gmail.com</p>
+        <p class="mt-3 mb-3 font-semibold">Social Media</p>
+        <a href="https://www.linkedin.com/in/dahee-jo-958099188/"><img class="sns-img inline-block" src="./images/linked-in.png"></a>
+        <a href="https://www.instagram.com/steadyrunner_/"><img class="sns-img inline-block" src="./images/insta.png"></a>
+      </div>
+    </section>
+
+    <section class="right-sect flex-col ml-10 w-screen">
+      <section class="aboutme inset-x-0">
+        <h2 class="flex w-full p-1 mt-10 mb-3 text-xl font-bold font-bold bg-pink-100">INTRO. 유용한 가치를 만들고 전하는 개발자</h2>
+        <p class="about-me-text">
+        사람들에게 비즈니스/사회적으로 유용한 가치를 전해주는 프로덕트를 만들고 싶은 개발자 조다희입니다.<br>
+        혼자가 아닌 함께의 힘을 기반으로 좋은 아이템이 만들어진다는 것을 기업경영지원 교내 학생단체 활동, 창업프로젝트, 여러 토이 프로젝트를 통해 경험해왔습니다.<br>
+        일단 아이디어가 생각나는 즉시 동료, 팀원들과 어떻게 이 아이디어를 효과적으로 구체화시킬 수 있을지 고민하고 대화하는 것을 좋아합니다.
+        적극적인 커뮤니케이션과 협업이 만드는 시너지와 그로 인해 얻을 수 있는 모두가 뿌듯해할만한 결과물을 만드는 것을 최우선으로 하고 있습니다. 
+
+        </p>
+      </section>
+
+      <section class="techstck mt-10">
+        <h2 class="p-1 text-xl mb-3 font-bold flex bg-pink-100">TECH STACKS</h2>
+        <ul class="flex justify-evenly" >
+          <li class="font-semibold">HTML</li>
+          <li class="font-semibold">CSS</li>
+          <li class="font-semibold">JavaScript</li>
+          <li class="font-semibold">Python</li>
+          <li class="font-semibold">React</li>
+          <li class="font-semibold">Django</li>
+          <li class="font-semibold">Sass</li>
+          <li class="font-semibold">Tailwind</li>
+        </ul>
+      </section>
+      <section class="project mt-10">
+            <h2 class="p-1 text-xl mb-3 font-bold flex bg-pink-100">PROJECTS</h2>
+            <ul class="pj">
+              <a href="#none" class="pj-tit font-semibold cursor-pointer">1만 시간의 법칙</a>
+              <p class="pj-desc mb-3">어떤 분야의 전문가가 되기 위해서는 최소 1만 시간의 훈련이 필요하는 법칙을 기반으로, 하루에 몇 시간씩 훈련하면 그 분야의 전문가가 될 수 있는지 알려주는 웹페이지입니다.</p>
+            </ul>
+            <ul class="pj">
+              <a href="#none" class="pj-tit font-semibold cursor-pointer">밴딩머신</a>
+              <p class="pj-desc mb-3">입금액에 따라 원하는 음료를 구매할 수 있는 웹페이지입니다.</p>
+            </ul>
+            <ul class="pj">
+              <a href="#none" class="pj-tit font-semibold cursor-pointer">랜딩페이지</a>
+              <p class="pj-desc mb-3">개발자 조다희와 그의 프로젝트를 보여주는 포트폴리오 랜딩페이지입니다.</p>
+            </ul>
+            <ul class="pj">
+              <a href="#none" class="pj-tit font-semibold cursor-pointer">감귤마켓</a>
+              <p class="pj-desc">우리동네 안에서 중고거래를 할 수 있는 서비스를 클론한 프로젝트입니다.</p>
+            </ul>
+          </section>
+
+        <section class="edu mt-10">
+            <h2 class="p-1 text-xl mb-3 font-bold flex bg-pink-100">EDUCATION</h2>
+            <div>
+              <h2 class="title-text font-semibold">멋쟁이사자처럼 프론트엔드스쿨 2기</h2>
+              <ul>
+                <li class="year-text mb-3">2022.03 - 2022.08</li>
+              </ul>
+              <h2 class="title-text font-semibold">충북대학교</h2>
+              <ul>
+                <li class="desc-text list-desc">영어영문학과/국제경영학과 복수전공 학사</li>
+                <li class="year-text">2017.03 - 2022.02</li>
+              </ul>
+            </div>
+        </section>
+
+        <section class="awards mt-10">
+          <h2 class="p-1 text-xl mb-3 font-bold flex bg-pink-100">AWARDS</h2>
+          <div>
+            <p class="title-text font-semibold">동국대학교 메타버스 아이디어톤 창업경진대회</p>
+            <p class="desc-text">아이디어상</p>
+            <p class="year-text mb-10">2021</p>
+          </div>
+        </section>
+  </section>
+  </div>
+</body>
+</html>
